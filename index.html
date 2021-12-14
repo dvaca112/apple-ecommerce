@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Creative ECommerce Website Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="banner">
+      <header>
+        <a href="#" class="logo">Apple</a>
+        <div class="toggle" onclick="toggle();"></div>
+      </header>
+      <div class="content">
+        <div class="contentBx">
+          <h2>Future In<br />your hand</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <a href="html/store.html">Buy Now</a>
+        </div>
+        <div class="imgBx">
+          <img src="watch.png" />
+        </div>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="instagram.png" /></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="html/about.html">About</a></li>
+        <li><a href="html/products.html">Products</a></li>
+        <li><a href="html/store.html">Store</a></li>
+        <li><a href="html/contact.html">Contact</a></li>
+      </ul>
+    </section>
+    <script type="text/javascript">
+      function toggle() {
+        var banner = document.querySelector(".banner");
+        var toggle = document.querySelector(".toggle");
+        banner.classList.toggle("active");
+        toggle.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
