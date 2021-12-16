@@ -303,7 +303,7 @@ section.active .menu {
     padding: 20px 40px;
   }
   section {
-    padding: 5px;
+    padding: 10px;
     overflow: hidden;
   }
   section:before {
