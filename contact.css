@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 * {
-  margin: 5px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -105,6 +105,7 @@ header .toggle.active {
   position: absolute;
   bottom: 20px;
   display: flex;
+  margin-left: 1rem;
   justify-content: center;
   align-items: center;
   z-index: 2;
@@ -303,8 +304,7 @@ section.active .menu {
     padding: 20px 40px;
   }
   section {
-    padding: 10px;
-    overflow: hidden;
+    padding: 0;
   }
   section:before {
     top: 100px;
@@ -333,6 +333,7 @@ section.active .menu {
   }
 
   body {
+    margin-right: -0.25rem;
     background: #03a9f5;
   }
   .contactus {
